@@ -1,0 +1,32 @@
+[
+  {
+    "task": "Summarization",
+    "prompt": "Summarize this text in 2 sentences:\nAI helps businesses automate tasks, analyze data, improve customer service, and make predictions. However, AI can make mistakes, so important results should be checked by humans.",
+    "answer": "AI helps businesses by automating tasks, analyzing data, improving customer service, and making predictions. However, because AI can make mistakes, important results should always be reviewed by humans.",
+    "rating": 5
+  },
+  {
+    "task": "Classification",
+    "prompt": "Classify this customer message as Billing, Technical, or Account. Return only the category.\nMessage: I was charged twice for my subscription.",
+    "answer": "Billing",
+    "rating": 5
+  },
+  {
+    "task": "Information Extraction",
+    "prompt": "Extract the name, skills, and years of experience from this text. Return valid JSON with keys name, skills, years_of_experience.\nText: Priya knows Python and SQL and has 2 years of experience.",
+    "answer": "```json\n{\n  \"name\": \"Priya\",\n  \"skills\": [\n    \"Python\",\n    \"SQL\"\n  ],\n  \"years_of_experience\": 2\n}\n```",
+    "rating": 4
+  },
+  {
+    "task": "Translation",
+    "prompt": "Translate this Tamil sentence into English:\nவணக்கம், நீங்கள் எப்படி இருக்கிறீர்கள்?",
+    "answer": "The translation of this Tamil sentence into English is:\n\n**\"Hello, how are you?\"**",
+    "rating": 5
+  },
+  {
+    "task": "Code Generation",
+    "prompt": "Write a Python function named add_numbers that accepts two numbers and returns their sum. Include a short example.",
+    "answer": "Here is the Python function along with a short example:\n\n```python\ndef add_numbers(num1, num2):\n    \"\"\"Accepts two numbers and returns their sum.\"\"\"\n    return num1 + num2\n\n\n# Example usage:\nresult = add_numbers(5, 3)\nprint(result)  # Output: 8\n```",
+    "rating": 5
+  }
+]

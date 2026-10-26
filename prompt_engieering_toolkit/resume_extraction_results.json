@@ -1,0 +1,149 @@
+[
+  {
+    "resume_id": 1,
+    "mode": "Plain prompt",
+    "valid_json": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "resume_id": 1,
+    "mode": "JSON mode",
+    "valid_json": true,
+    "validated_data": {
+      "name": "Priya",
+      "skills": [
+        "Python",
+        "SQL",
+        "FastAPI"
+      ],
+      "years_experience": 3.0
+    },
+    "expected": {
+      "name": "Priya",
+      "skills": [
+        "Python",
+        "SQL",
+        "FastAPI"
+      ],
+      "years_experience": 3
+    }
+  },
+  {
+    "resume_id": 2,
+    "mode": "Plain prompt",
+    "valid_json": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "resume_id": 2,
+    "mode": "JSON mode",
+    "valid_json": true,
+    "validated_data": {
+      "name": "Arun",
+      "skills": [
+        "Excel",
+        "Power BI",
+        "SQL"
+      ],
+      "years_experience": 2.0
+    },
+    "expected": {
+      "name": "Arun",
+      "skills": [
+        "Excel",
+        "Power BI",
+        "SQL"
+      ],
+      "years_experience": 2
+    }
+  },
+  {
+    "resume_id": 3,
+    "mode": "Plain prompt",
+    "valid_json": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "resume_id": 3,
+    "mode": "JSON mode",
+    "valid_json": true,
+    "validated_data": {
+      "name": "Meena",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "years_experience": 4.0
+    },
+    "expected": {
+      "name": "Meena",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "scikit-learn"
+      ],
+      "years_experience": 4
+    }
+  },
+  {
+    "resume_id": 4,
+    "mode": "Plain prompt",
+    "valid_json": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "resume_id": 4,
+    "mode": "JSON mode",
+    "valid_json": true,
+    "validated_data": {
+      "name": "Rahul",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "years_experience": 1.0
+    },
+    "expected": {
+      "name": "Rahul",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "years_experience": 1
+    }
+  },
+  {
+    "resume_id": 5,
+    "mode": "Plain prompt",
+    "valid_json": false,
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "resume_id": 5,
+    "mode": "JSON mode",
+    "valid_json": true,
+    "validated_data": {
+      "name": "Divya",
+      "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "AWS"
+      ],
+      "years_experience": 5.0
+    },
+    "expected": {
+      "name": "Divya",
+      "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "AWS"
+      ],
+      "years_experience": 5
+    }
+  }
+]

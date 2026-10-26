@@ -1,0 +1,72 @@
+[
+  {
+    "problem_number": 1,
+    "question": "A notebook costs Rs. 50. What is the total cost of 3 notebooks?",
+    "prompt_type": "Direct prompt",
+    "expected_answer": "150",
+    "predicted_answer": "Rs. 150"
+  },
+  {
+    "problem_number": 1,
+    "question": "A notebook costs Rs. 50. What is the total cost of 3 notebooks?",
+    "prompt_type": "Step-by-step prompt",
+    "expected_answer": "150",
+    "predicted_answer": "Rs. 150"
+  },
+  {
+    "problem_number": 2,
+    "question": "Five workers each complete 10 tasks. How many tasks do they complete altogether?",
+    "prompt_type": "Direct prompt",
+    "expected_answer": "50",
+    "predicted_answer": "50"
+  },
+  {
+    "problem_number": 2,
+    "question": "Five workers each complete 10 tasks. How many tasks do they complete altogether?",
+    "prompt_type": "Step-by-step prompt",
+    "expected_answer": "50",
+    "predicted_answer": "50"
+  },
+  {
+    "problem_number": 3,
+    "question": "Find the next number: 2, 4, 8, 16, __.",
+    "prompt_type": "Direct prompt",
+    "expected_answer": "32",
+    "predicted_answer": "32"
+  },
+  {
+    "problem_number": 3,
+    "question": "Find the next number: 2, 4, 8, 16, __.",
+    "prompt_type": "Step-by-step prompt",
+    "expected_answer": "32",
+    "predicted_answer": "32"
+  },
+  {
+    "problem_number": 4,
+    "question": "All roses are flowers. Some flowers fade quickly. Can we conclude that all roses fade quickly? Answer Yes or No.",
+    "prompt_type": "Direct prompt",
+    "expected_answer": "No",
+    "predicted_answer": "No"
+  },
+  {
+    "problem_number": 4,
+    "question": "All roses are flowers. Some flowers fade quickly. Can we conclude that all roses fade quickly? Answer Yes or No.",
+    "prompt_type": "Step-by-step prompt",
+    "expected_answer": "No",
+    "predicted_answer": "No"
+  },
+  {
+    "problem_number": 5,
+    "question": "A bat and a ball cost Rs. 110 together. The bat costs Rs. 100 more than the ball. How much does the ball cost in rupees?",
+    "prompt_type": "Direct prompt",
+    "expected_answer": "5",
+    "predicted_answer": "Rs. 5"
+  },
+  {
+    "problem_number": 5,
+    "question": "A bat and a ball cost Rs. 110 together. The bat costs Rs. 100 more than the ball. How much does the ball cost in rupees?",
+    "prompt_type": "Step-by-step prompt",
+    "expected_answer": "5",
+    "predicted_answer": "5"
+  }
+]

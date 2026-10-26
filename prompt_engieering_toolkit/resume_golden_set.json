@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "resume": "Priya is a Python developer with 3 years of experience. She knows Python, SQL, and FastAPI.",
+    "expected": {
+      "name": "Priya",
+      "skills": ["Python", "SQL", "FastAPI"],
+      "years_experience": 3
+    }
+  },
+  {
+    "id": 2,
+    "resume": "Arun is a data analyst with 2 years of experience using Excel, Power BI, and SQL.",
+    "expected": {
+      "name": "Arun",
+      "skills": ["Excel", "Power BI", "SQL"],
+      "years_experience": 2
+    }
+  },
+  {
+    "id": 3,
+    "resume": "Meena is a machine learning engineer with 4 years of experience in Python, TensorFlow, and scikit-learn.",
+    "expected": {
+      "name": "Meena",
+      "skills": ["Python", "TensorFlow", "scikit-learn"],
+      "years_experience": 4
+    }
+  },
+  {
+    "id": 4,
+    "resume": "Rahul is a frontend developer with 1 year of experience in HTML, CSS, and JavaScript.",
+    "expected": {
+      "name": "Rahul",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "years_experience": 1
+    }
+  },
+  {
+    "id": 5,
+    "resume": "Divya is a data engineer with 5 years of experience in Python, SQL, Spark, and AWS.",
+    "expected": {
+      "name": "Divya",
+      "skills": ["Python", "SQL", "Spark", "AWS"],
+      "years_experience": 5
+    }
+  }
+]

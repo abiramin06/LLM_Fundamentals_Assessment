@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "ticket": "I was charged twice for my monthly subscription.",
+    "expected_category": "Billing",
+    "expected_priority": "High"
+  },
+  {
+    "id": 2,
+    "ticket": "The app crashes whenever I open the dashboard.",
+    "expected_category": "Technical",
+    "expected_priority": "High"
+  },
+  {
+    "id": 3,
+    "ticket": "I forgot my password and cannot log in.",
+    "expected_category": "Account",
+    "expected_priority": "High"
+  },
+  {
+    "id": 4,
+    "ticket": "How can I download my monthly invoice?",
+    "expected_category": "Billing",
+    "expected_priority": "Low"
+  },
+  {
+    "id": 5,
+    "ticket": "The application shows an error when I upload a file.",
+    "expected_category": "Technical",
+    "expected_priority": "Medium"
+  },
+  {
+    "id": 6,
+    "ticket": "Please update the email address linked to my account.",
+    "expected_category": "Account",
+    "expected_priority": "Medium"
+  },
+  {
+    "id": 7,
+    "ticket": "My payment failed, but the amount was deducted from my bank.",
+    "expected_category": "Billing",
+    "expected_priority": "High"
+  },
+  {
+    "id": 8,
+    "ticket": "The page loads very slowly when I search for products.",
+    "expected_category": "Technical",
+    "expected_priority": "Medium"
+  },
+  {
+    "id": 9,
+    "ticket": "I want to change my account password.",
+    "expected_category": "Account",
+    "expected_priority": "Low"
+  },
+  {
+    "id": 10,
+    "ticket": "Please explain the additional tax on my latest bill.",
+    "expected_category": "Billing",
+    "expected_priority": "Medium"
+  },
+  {
+    "id": 11,
+    "ticket": "The website is completely down for all our team members.",
+    "expected_category": "Technical",
+    "expected_priority": "High"
+  },
+  {
+    "id": 12,
+    "ticket": "My account has been locked after several login attempts.",
+    "expected_category": "Account",
+    "expected_priority": "High"
+  },
+  {
+    "id": 13,
+    "ticket": "Can I get a copy of last month's payment receipt?",
+    "expected_category": "Billing",
+    "expected_priority": "Low"
+  },
+  {
+    "id": 14,
+    "ticket": "The download button does nothing when I click it.",
+    "expected_category": "Technical",
+    "expected_priority": "Medium"
+  },
+  {
+    "id": 15,
+    "ticket": "I need to change the phone number on my profile.",
+    "expected_category": "Account",
+    "expected_priority": "Low"
+  }
+]
